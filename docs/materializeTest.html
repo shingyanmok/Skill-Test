@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<style type="text/css">
+		body{
+			height: 2000px;
+		}
+	</style>
+
+	<title>Materialize Skill Test Build</title>
+</head>
+
+<body>
+
+	<nav class="navbar nav-extended">
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo center">Logo</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="#">Sass</a></li>
+				<li><a href="#">Components</a></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+		</div>
+		<div class="nav-content">
+			<ul class="tabs tabs-transparent">
+				<li class="tab"><a class="active" href="#test1">Test 1</a></li>
+				<li class="tab"><a href="#test2">Test 2</a></li>
+				<li class="tab"><a href="#test3">Test 3</a></li>
+				<li class="tab"><a href="#test4">Test 4</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="#">Sass</a></li>
+		<li><a href="#">Components</a></li>
+		<li><a href="#">JavaScript</a></li>
+	</ul>
+
+	<section id="test1">
+		<div class="col s12">Test 1</div>
+	</section>
+	<section id="test2">
+		<div class="col s12">Test 2</div>
+	</section>
+	<section id="test3">
+		<div class="col s12">Test 3</div>
+	</section>
+	<section id="test4">
+		<div  class="col s12">Test 4</div>
+	</section>
+        
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<script type="text/javascript">
+		/* dropdown initialization */
+		$('.dropdown-trigger').dropdown();
+
+		/* collapsible initialization */
+		$(document).ready(function(){
+			$('.collapsible').collapsible();
+		});
+
+		/* tabs initialization */
+		$(document).ready(function(){
+			$('.tabs').tabs();
+		});
+
+		/* sidenav initialization */
+		$(document).ready(function(){
+			$('.sidenav').sidenav();
+		});
+		
+	</script>
+  
+</body>
+</html>
