@@ -1,24 +1,33 @@
 {
-  "catagory": {
-    "cd": [
-      {
-        "cd_id": "1",
-        "title": "sadfd",
-        "artist": "hjklkfd",
-        "country": "sdyhjg",
-        "company": "deareed",
-        "price": "0.01",
-        "year": "1990"
-      },
-      {
-        "cd_id": "2",
-        "title": "ghdfg",
-        "artist": "afgdhtfsj",
-        "country": "dfgsrty",
-        "company": "sdfhfdhety",
-        "price": "0.01",
-        "year": "2000"
-      }
-    ]
-  }
+	"catagory": {
+		"cd": [
+			{
+				"cd_id": "1",
+				"title": "sadfd",
+				"artist": "hjklkfd",
+				"country": "sdyhjg",
+				"company": "deareed",
+				"price": "0.01",
+				"year": "1990"
+			},
+			{
+				"cd_id": "2",
+				"title": "ghdfg",
+				"artist": "afgdhtfsj",
+				"country": "dfgsrty",
+				"company": "sdfhfdhety",
+				"price": "0.01",
+				"year": "2000"
+			},
+			{
+				"cd_id": "3",
+				"title": "sdaf",
+				"artist": "hjhgfd",
+				"country": "dfrtwer",
+				"company": "sfxv fdadfcdva",
+				"price": "0.03",
+				"year": "2040"
+			}
+		]
+	}
 }
