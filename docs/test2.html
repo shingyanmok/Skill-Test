@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test2</title>
+</head>
+<body>
+	<form class="form">
+		<h3>CD</h3>
+		<input type="hidden" name="cd_id" value="1" />
+		<input type="text" name="title" placeholder="Title" />
+		<input type="text" name="artist" placeholder="Artist" />
+		<input type="text" name="country" placeholder="Country" />
+		<input type="text" name="company" placeholder="Company" />
+		<input type="number" min="0.00" max="10.00" step="0.01" name="price" placeholder="Price" />
+		<input type="number" min="1990" max="2040" step="1" name="year" placeholder="Year" />
+		<button type="submit">Save</button>
+	</form>
+	<div class="result">
+		<h3>Input Result</h3>
+		<pre class="result__display__location"><code class="result__display"></code></pre>
+	</div>
+	<div class="allResult">
+		<h3>All Result</h3>
+		<form id="allResult">
+			<button name="string" type="button">Table Using HTML String</button>
+			<button name="dom" type="button">Table Using DOM API</button>
+			<p><button name="clear" type="button">Clear</button></p>
+			<p><output name="out"></output></p>
+		</form>
+		<table>
+			<tbody></tbody>
+		</table>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="test2SaveJson.js"></script>
+	<script type="text/javascript" src="test2DisplayAllResult.js"></script>
+	<script type="text/javascript" src="test2ExternalFileLoading.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "catagory": {
+    "cd": [
+      {
+        "cd_id": "1",
+        "title": "sadfd",
+        "artist": "hjklkfd",
+        "country": "sdyhjg",
+        "company": "deareed",
+        "price": "0.01",
+        "year": "1990"
+      },
+      {
+        "cd_id": "2",
+        "title": "ghdfg",
+        "artist": "afgdhtfsj",
+        "country": "dfgsrty",
+        "company": "sdfhfdhety",
+        "price": "0.01",
+        "year": "2000"
+      }
+    ]
+  }
+}
