@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var catagory = [];
 
 	const test="<p>Test Ver 2.0</p>";
-	$(test).appendTo("body->div");
+	$(test).appendTo("#test div");
 
 	$.getJSON('test2JsonExample.json', function(data) {
 		$.each(data.catagory.cd , function(i, f) {
