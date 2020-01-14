@@ -3,7 +3,7 @@ $(document).ready(function(){
 
    $.getJSON('test2JsonExample.json', function(data) {
        $.each(data, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.cd.title + "</td>" + "<td>" + f.cd.artist + "</td>" + "<td>" + f.cd.country + "</td>" + "<td>" + f.cd.company + "</td>" + "</tr>"
+          var tblRow = "<tr>" + "<td>" + f.title + "</td>" + "<td>" + f.artist + "</td>" + "<td>" + f.country + "</td>" + "<td>" + f.company + "</td>" + "</tr>"
            $(tblRow).appendTo("#externalJson table");
      });
 
