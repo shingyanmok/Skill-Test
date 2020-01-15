@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var catagory = [];
 
-	const test="<p>Test Ver 2.0</p>";
+	const test="<p>Test Ver 2.1</p>";
 	$(test).appendTo("#test div");
 
 	$.getJSON('test2JsonExample.json', function(data) {
