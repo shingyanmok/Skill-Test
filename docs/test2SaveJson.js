@@ -123,7 +123,7 @@ const handleFormSubmit = event => {
   // ...this is where we’d actually do something with the form data...
 };
 
-/*r
+/*
  * This is where things actually get started. We find the form element using
  * its class name, then attach the `handleFormSubmit()` function to the 
  * `submit` event.

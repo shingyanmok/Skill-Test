@@ -4,15 +4,15 @@
 	<title>Test2</title>
 </head>
 <body>
-	<form class="form">
+	<form id="form" class="form">
 		<div><h3>CD</h3></div>
-		<div><input type="hidden" name="cd_id" value="1" /></div>
-		<div><label>Title</label><br /><input type="text" name="title" placeholder="Title" /></div>
-		<div><label>Artist</label><br /><input type="text" name="artist" placeholder="Artist" /></div>
-		<div><label>Country</label><br /><input type="text" name="country" placeholder="Country" /></div>
-		<div><label>Company</label><br /><input type="text" name="company" placeholder="Company" /></div>
-		<div><label>Price</label><br /><input type="number" min="0.00" max="10.00" step="0.01" name="price" placeholder="Price" /></div>
-		<div><label>Year</label><br /><input type="number" min="1990" max="2040" step="1" name="year" placeholder="Year" /></div>
+		<div><input type="hidden" name="catagory[cd][cd_id]" value="1" /></div>
+		<div><label>Title</label><br /><input type="text" name="catagory[cd][title]" placeholder="Title" /></div>
+		<div><label>Artist</label><br /><input type="text" name="catagory[cd][artist]" placeholder="Artist" /></div>
+		<div><label>Country</label><br /><input type="text" name="catagory[cd][country]" placeholder="Country" /></div>
+		<div><label>Company</label><br /><input type="text" name="catagory[cd][company]" placeholder="Company" /></div>
+		<div><label>Price</label><br /><input type="number" min="0.00" max="10.00" step="0.01" name="catagory[cd][price]" placeholder="Price" /></div>
+		<div><label>Year</label><br /><input type="number" min="1990" max="2040" step="1" name="catagory[cd][year]" placeholder="Year" /></div>
 		<div><button type="submit">Save</button></div>
 	</form>
 	<div class="result">
@@ -43,7 +43,9 @@
 	</div>
 	<div id="test"><div></div></div>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="test2SaveJson.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.min.js"></script>
+	<!-- <script type="text/javascript" src="test2SaveJson.js"></script> -->
+	<script type="text/javascript" src="test2SerializeJson.js"></script>
 	<script type="text/javascript" src="test2DisplayAllResult.js"></script>
 	<script type="text/javascript" src="test2ExternalFileLoading.js"></script>
 </body>
