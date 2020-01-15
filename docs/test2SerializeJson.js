@@ -3,12 +3,13 @@ const handleFormSubmit = event => {
 	event.preventDefault();
 
 	var obj = $('#form').serializeJSON();
+	var jsonString = JSON.stringify(obj, null, "  ");
 
 	// Demo only: print the form data onscreen as a formatted JSON object.
 	const dataContainer = document.getElementsByClassName('result__display')[0];
 
 	// Use `JSON.stringify()` to make the output valid, human-readable JSON.
-	dataContainer.textContent = JSON.stringify(obj, null, "  ");
+	dataContainer.textContent = jsonString;
 }
 
 /*
