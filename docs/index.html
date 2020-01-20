@@ -7,17 +7,7 @@
 
 	<!-- Include jQuery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<script> 
-		$(function(){
-			$("head").load("indexLink.html") 
-
-			var includes = $('[data-include]');
-			jQuery.each(includes, function(){
-				var file = $(this).data('include') + '.html';
-				$(this).load(file);
-			});
-		});
-	</script>
+	<link rel="preload" href="indexInclude.js" as="script"></link>
 
 	<!-- Bootstrap CSS -->
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
